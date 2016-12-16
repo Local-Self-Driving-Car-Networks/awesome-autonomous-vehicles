@@ -6,22 +6,17 @@ A curated list of awesome autonomous vehicles resources, inspired by [awesome-ph
 Please feel free to send me pull requests or email me at (takeitallsource@gmail.com) to add links.
 
 ## Table of Contents
-* Foundations
-    * Artificial Intelligence
-    * Computer Vision
-    * Robotics
-    * Human-Machine Interaction
-2. Courses
-3. Research
-    * Papers
-    * Labs
-4. Datasets
-5. Open Source Software
-7. Companies
-8. Legal Frame
-9. Blogs
-10. Social Media
-11. Miscellaneous
+* [Foundations](#foundations)
+* [Courses](#courses)
+* [Papers](#papers)
+* [Research Labs](#research-labs)
+* [Datasets](#datasets)
+* [Open Source Software](#open-source-software)
+* [Hardware](#hardware)
+* [Companies](#companies)
+* [Media](#media)
+* [Laws](#laws)
+
 
 ## Foundations
 
@@ -50,17 +45,192 @@ Visual Perception for Autonomous Driving](http://www.cs.toronto.edu/~urtasun/cou
 * [[Universty of Glasgow] ENG5017 Autonomous Vehicle Guidance Systems](http://www.gla.ac.uk/coursecatalogue/course/?code=ENG5017) - Introduces the concepts behind autonomous vehicle guidance and coordination and enables students to design and implement guidance strategies for vehicles incorporating planning, optimising and reacting elements.
 * [[MIT] 2.166 Duckietown](http://duckietown.mit.edu/index.html) - Class about the science of autonomy at the graduate level. This is a hands-on, project-focused course focusing on self-driving vehicles and high-level autonomy. The problem: **Design the Autonomous Robo-Taxis System for the City of Duckietown.**
 * [[David Silver - Udacity] How to Land An Autonomous Vehicle Job: Coursework](https://medium.com/self-driving-cars/how-to-land-an-autonomous-vehicle-job-coursework-e7acc2bfe740#.j5b2kwbso) David Silver, from Udacity, reviews his coursework for landing a job in self-driving cars coming from a Software Engineering background.
+* [[Stanford] - CS221 Artificial Intelligence: Principles and Techniques](http://stanford.edu/~cpiech/cs221/index.html) - Contains a simple self-driving project and simulator.
 
-## Research
+## Papers
+By Topic Areas and Year of Publication / Submission
 
-### Papers
+#### General
+1. **[2016]** _Combining Deep Reinforcement Learning and Safety Based Control for Autonomous Driving_. [[ref](https://arxiv.org/abs/1612.00147)]
+* **[2015]** _An Empirical Evaluation of Deep Learning on Highway Driving_. [[ref](https://arxiv.org/abs/1504.01716)]
+* **[2015]** _Self-Driving Vehicles: The Challenges and Opportunities Ahead_. [[ref](http://dl.acm.org/citation.cfm?id=2823464)]
+* **[2014]** _Making Bertha Drive - An Autonomous Journey on a Historic Route_. [[ref](https://www.semanticscholar.org/paper/Making-Bertha-Drive-An-Autonomous-Journey-on-a-Ziegler-Bender/ec26d7b1cb028749d0d6972279cf4090930989d8)]
+* **[2014]** _Towards Autonomous Vehicles_. [[ref](https://www.semanticscholar.org/paper/Towards-Autonomous-Vehicles-Schwarz-Thomas/88712e686e1bcad21f0836e9d31400dab2b7fa8f)]
+* **[2013]** _Towards a viable autonomous driving research platform_. [[ref](https://www.semanticscholar.org/paper/Towards-a-viable-autonomous-driving-research-Wei-Snider/da5cee7a6eb817bbbf4721c64c756bd8b7122359)]
+* **[2013]** _An ontology-based model to determine the automation level of an automated vehicle for co-driving_. [[ref](https://www.semanticscholar.org/paper/An-ontology-based-model-to-determine-the-Pollard-Morignot/25239ec7fb6159166dfe15adf229fc2415f071df)]
+* **[2013]** _Autonomous Vehicle Navigation by Building 3d Map and by Detecting Human Trajectory Using Lidar_. [[ref](https://www.semanticscholar.org/paper/Autonomous-Vehicle-Navigation-by-Building-3d-Map-Kagami-Thompson/81b14341e3e063d819d032b6ce0bc0be0917c867)]
+* **[2012]** _Autonomous Ground Vehicles - Concepts and a Path to the Future_. [[ref](https://www.semanticscholar.org/paper/Autonomous-Ground-Vehicles-Concepts-and-a-Path-to-Luettel-Himmelsbach/5e8d51a1f6ba313a38a35af414a00bcfd3b5c0ae)]
+* **[2011]** _Experimental Evaluation of Autonomous Driving Based on Visual Memory and Image-Based Visual Servoing_. [[ref](https://www.semanticscholar.org/paper/Experimental-Evaluation-of-Autonomous-Driving-Diosi-Segvic/2aeb9aa42e8e2048e15453759ec12411486a2619)]
+* **[2011]** _Learning to Drive: Perception for Autonomous Cars_. [[ref](https://www.semanticscholar.org/paper/Learning-to-Drive-Perception-for-Autonomous-Cars-Stavens-Thrun/be25d7bff3b5928adf6c0a7f5495d47113f80997)]
+* **[2010]** _Toward robotic cars_. [[ref](http://dl.acm.org/citation.cfm?id=1721679)]
+* **[2008]** _Autonomous Driving in Urban Environments: Boss and the Urban Challenge_. [[ref](https://www.semanticscholar.org/paper/Autonomous-Driving-in-Urban-Environments-Boss-and-Urmson-Anhalt/1c0fb6b1bbfde0f9bab6268f5609cce2bd3bc5bd)]
+* **[2008]** _Caroline: An autonomously driving vehicle for urban environments_. [[ref](https://www.semanticscholar.org/paper/Caroline-An-autonomously-driving-vehicle-for-urban-Rauskolb-Berger/08f4e164291942fc78bd6945215b2c672b17edd5)]
+* **[2007]** _Self-Driving Cars - An AI-Robotics Challenge_. [[ref](https://www.semanticscholar.org/paper/Self-Driving-Cars-An-AI-Robotics-Challenge-Thrun/31d17c77d2ea18f71d570741665f0fd3030caa94)]
+* **[2007]** _Team Mit Urban Challenge Technical Report_. [[ref](https://www.semanticscholar.org/paper/Team-Mit-Urban-Challenge-Technical-Report-Leonard-Barrett/6ac15e819701cd0d077d8157711c4c402106722c)]
+* **[2006]** _A Personal Account of the Development of Stanley, the Robot That Won the DARPA Grand Challenge_. [[ref](https://www.semanticscholar.org/paper/A-Personal-Account-of-the-Development-of-Stanley-Thrun/74a4de58be068d2dc38bb31cf54c3c49bdc0d4e4)]
+* **[2006]** _Stanley: The robot that won the DARPA Grand Challenge_. [[ref](https://www.semanticscholar.org/paper/Stanley-The-robot-that-won-the-DARPA-Grand-Thrun-Montemerlo/298500897243b17fa2ebe7bde0a1b8ebc00ea07f)]
 
-### Labs
+#### Localization & Mapping
+1. **[2016]** _MultiCol-SLAM - A Modular Real-Time Multi-Camera SLAM System._ [[ref](https://arxiv.org/abs/1610.07336)]
+* **[2016]** _Image Based Camera Localization: an Overview_. [[ref](https://arxiv.org/abs/1610.03660)]
+* **[2016]** _Ubiquitous real-time geo-spatial localization_ [[ref](http://dl.acm.org/citation.cfm?id=3005426)]
+* **[2015]** _Precise Localization of an Autonomous Car Based on Probabilistic Noise Models of Road Surface Marker Features Using Multiple Cameras_. [[ref](https://www.semanticscholar.org/paper/Precise-Localization-of-an-Autonomous-Car-Based-on-Jo-Jo/27251099b78185f9ddf59c9ed0c5868af4ef1e80)]
+* **[2013]** _Planar Segments Based Three-dimensional Robotic Mapping in Outdoor Environments_. [[ref](https://www.semanticscholar.org/paper/Planar-Segments-Based-Three-dimensional-Robotic-Xiao/ebddeb22f3b5c38422987c3fe51aaf847ad444e7)]
+* **[2013]** _Vehicle Localization along a Previously Driven Route Using Image Database_. [[ref](https://www.semanticscholar.org/paper/Vehicle-Localization-along-a-Previously-Driven-Kume-Supp%C3%A9/e5a7ac37d542349ae19281f1e2a571f7030b789c)]
+* **[2012]** _Can priors be trusted? Learning to anticipate roadworks_. [[ref](https://www.semanticscholar.org/paper/Can-priors-be-trusted-Learning-to-anticipate-Mathibela-Osborne/0a7e502779ed2cf9ee2677d0310386481a51fc12)]
+* **[2007]** _Map-Based Precision Vehicle Localization in Urban Environments_. [[ref](https://www.semanticscholar.org/paper/Map-Based-Precision-Vehicle-Localization-in-Urban-Levinson-Montemerlo/924f7268d592d327f97ad4e96f48ad774d982ef3)]
+
+#### Perception
+1. **[2016]** _VisualBackProp: visualizing CNNs for autonomous driving_. [[ref](https://arxiv.org/abs/1611.05418)]
+* **[2016]** _Driving in the Matrix: Can Virtual Worlds Replace Human-Generated Annotations for Real World Tasks?_. [[ref](https://arxiv.org/abs/1610.01983)]
+* **[2016]** _Lost and Found: Detecting Small Road Hazards for Self-Driving Vehicles_. [[ref](https://arxiv.org/abs/1609.04653)]
+* **[2016]** _Image segmentation of cross-country scenes captured in IR spectrum_. [[ref](https://arxiv.org/abs/1604.02469)]
+* **[2016]** _Traffic-Sign Detection and Classification in the Wild_. [[ref](https://www.semanticscholar.org/paper/Traffic-Sign-Detection-and-Classification-in-the-Zhu-Liang/d463499b7a82e3cad81d2471b52a198b857aa75b)]
+* **[2016]** _Persistent self-supervised learning principle: from stereo to monocular vision for obstacle avoidance_. [[ref](https://www.semanticscholar.org/paper/Persistent-self-supervised-learning-principle-from-Hecke-Croon/a48c4c6707fca20ae64b044b6e8f7f37891186fc)]
+* **[2016]** _Deep Multispectral Semantic Scene Understanding of Forested Environments Using Multimodal Fusion_. [[ref](https://www.semanticscholar.org/paper/Deep-Multispectral-Semantic-Scene-Understanding-of-Valada-Oliveira/8be99dd94bff76c75594a15e114268841a2656a7)]
+* **[2016]** _Joint Attention in Autonomous Driving (JAAD)_. [[ref](https://www.semanticscholar.org/paper/Joint-Attention-in-Autonomous-Driving-JAAD--Kotseruba-Rasouli/1e6a26deea0a38310368d9c2a6dadc317b50bdf8), [data](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/)]
+* **[2016]** _Perception for driverless vehicles: design and implementation_. [[ref](https://www.semanticscholar.org/paper/Perception-for-driverless-vehicles-design-and-Benenson-Suarez/bf1c728e3e893670244591f720b453245c3363f6)]
+* **[2015]** _Pixel-wise Segmentation of Street with Neural Networks_. [[ref](https://arxiv.org/abs/1511.00513)]
+* **[2015]** _Deep convolutional neural networks for pedestrian detection_. [[ref](https://arxiv.org/abs/1510.03608)]
+* **[2015]** _Fast Algorithms for Convolutional Neural Networks_. [[ref](https://arxiv.org/abs/1509.09308)]
+* **[2015]** _Fusion of color images and LiDAR data for lane classification_. [[ref](http://dl.acm.org/citation.cfm?id=2820859)]
+* **[2015]** _Environment Perception for Autonomous Vehicles in Challenging Conditions Using Stereo Vision_. [[ref](https://www.semanticscholar.org/paper/Environment-Perception-for-Autonomous-Vehicles-in-Gal%C3%A1n-Hayet/8f56fd10f37382292f474c441f92432b34b58db5)]
+* **[2015]** _Intention-aware online POMDP planning for autonomous driving in a crowd_. [[ref](https://www.semanticscholar.org/paper/Intention-aware-online-POMDP-planning-for-Bai-Cai/481aa2882a5816686a5bea7db755862cded42081)]
+* **[2015]** _Survey on Vanishing Point Detection Method for General Road Region Identification_. [[ref](https://www.semanticscholar.org/paper/Survey-on-Vanishing-Point-Detection-Method-for-Patel-Mistry/39c6be1e7723b93f06be2bb4199066d4efdadbc9)]
+* **[2015]** _Visual road following using intrinsic images_. [[ref](https://www.semanticscholar.org/paper/Visual-road-following-using-intrinsic-images-Krajn%C3%ADk-Blazicek/2298f9e3c1235526d55cf78bfc80c505d100540f)]
+* **[2014]** _Rover – a Lego* Self-driving Car_. [[ref](https://www.semanticscholar.org/paper/Rover-a-Lego-Self-driving-Car-Tan-Wojtczyk-Wojtczyk/6e24123ef558ffb9888d28f992f8afe76622830e)]
+* **[2014]** _Classification and Tracking of Dynamic Objects with Multiple Sensors for Autonomous Driving in Urban Environments_. [[ref](https://www.semanticscholar.org/paper/Classification-and-Tracking-of-Dynamic-Objects-Darms-Rybski/6c9ce40060fa3efea7d04a4a0e36609592ed6ddf)]
+* **[2014]** _Generating Omni-directional View of Neighboring Objects for Ensuring Safe Urban Driving_. [[ref](https://www.semanticscholar.org/paper/Generating-Omni-directional-View-of-Neighboring-Seo/29e53add392de54d439a6002c67e8af6e9baadeb)]
+* **[2014]** _Autonomous Visual Navigation and Laser-Based Moving Obstacle Avoidance_. [[ref](https://www.semanticscholar.org/paper/Autonomous-Visual-Navigation-and-Laser-Based-Cherubini-Spindler/089fa5a7babc906dc46a58f986c5ac8c46aa9017)]
+* **[2014]** _Extending the Stixel World with online self-supervised color modeling for road-versus-obstacle segmentation_. [[ref](https://www.semanticscholar.org/paper/Extending-the-Stixel-World-with-online-self-Sanberg-Dubbelman/6dd60e0484931b284f49ab8204b011d153ff4967)]
+* **[2014]** _Modeling Human Plan Recognition Using Bayesian Theory of Mind_. [[ref](https://www.semanticscholar.org/paper/Plan-Activity-and-Intent-Recognition-Baker-Tenenbaum/4cbb1ea46c09d11b0b986a7baaac7215006504f8)]
+* **[2013]** _Focused Trajectory Planning for autonomous on-road driving_. [[ref](https://www.semanticscholar.org/paper/Focused-Trajectory-Planning-for-autonomous-on-road-Gu-Snider/03bf26d72d8cc0cf401c31e31c242e1894bd0890)]
+* **[2013]** _Avoiding moving obstacles during visual navigation_. [[ref](https://www.semanticscholar.org/paper/Avoiding-moving-obstacles-during-visual-navigation-Cherubini-Grechanichenko/7c0e580c0f914086e9c918aef1df561253a71044)]
+* **[2013]** _Mobile robot navigation system in outdoor pedestrian environment using vision-based road recognition_. [[ref](https://www.semanticscholar.org/paper/Mobile-robot-navigation-system-in-outdoor-Siagian-Chang/7163764c33c3d87c313568c056d50d1bedb25696)]
+* **[2013]** _Obstacle detection and mapping in low-cost, low-power multi-robot systems using an Inverted Particle Filter_. [[ref](https://www.semanticscholar.org/paper/Obstacle-detection-and-mapping-in-low-cost-low-Kleppe-Skavhaug/646cc0e592b77d553cc77806e90d99420fb79a8e)]
+* **[2013]** _Real-time estimation of drivable image area based on monocular vision_. [[ref](https://www.semanticscholar.org/paper/Real-time-estimation-of-drivable-image-area-based-Neto-Victorino/c50a769c2038e29d9e64077cd4749b6f8d389806)]
+* **[2013]** _Road model prediction based unstructured road detection_. [[ref](https://www.semanticscholar.org/paper/Road-model-prediction-based-unstructured-road-Zuo-Yao/b8b2d3da341042d148ed2988216dbb3ddb6081ed)]
+* **[2013]** _Selective Combination of Visual and Thermal Imaging for Resilient Localization in Adverse Conditions: Day and Night, Smoke and Fire_. [[ref](https://www.semanticscholar.org/paper/Selective-Combination-of-Visual-and-Thermal-Brunner-Peynot/85b4b1a9780a4bc22f84904a1cfc3eeeb605c9bd)]
+* **[2012]** _Road Tracking Method Suitable for Both Unstructured and Structured Roads_. [[ref](https://www.semanticscholar.org/paper/International-Journal-of-Advanced-Robotic-Systems-Proch%C3%A1zka/4819fda4bc778454701f2a4b30db46ec56aa45bc)]
+* **[2012]** _Autonomous Navigation and Sign Detector Learning_. [[ref](https://www.semanticscholar.org/paper/Autonomous-Navigation-and-Sign-Detector-Learning-Ellis-Pugeault/0cffe50112452ecdcdaf0d11b33e12cf3c67213e)]
+* **[2012]** _Design of a Multi-Sensor Cooperation Travel Environment Perception System for Autonomous Vehicle_. [[ref](https://www.semanticscholar.org/paper/Design-of-a-Multi-Sensor-Cooperation-Travel-Chen-Li/f5feb2a151c54ec9699924d401a66c193ddd3c8b)]
+* **[2012]** _Learning in Reality: a Case Study of Stanley, the Robot That Won the Darpa Challenge_. [[ref](https://www.semanticscholar.org/paper/Learning-in-Reality-a-Case-Study-of-Stanley-the-Glaser-Hennig/01c1f49f5e7f4e7f5d005844aa9443769a2d9306)]
+* **[2012]** _Portable and Scalable Vision-Based Vehicular Instrumentation for the Analysis of Driver Intentionality_. [[ref](https://www.semanticscholar.org/paper/Portable-and-Scalable-Vision-Based-Vehicular-Beauchemin-Bauer/c76b5bc64ffd6e13a6c22641b3926a803e5209d5)]
+* **[2012]** _What could move? Finding cars, pedestrians and bicyclists in 3D laser data_. [[ref](https://www.semanticscholar.org/paper/What-could-move-Finding-cars-pedestrians-and-Wang-Posner/f56b01df806bc224d5babb71994915df4a08cb44)]
+* **[2012]** _The Stixel World_. [[ref](https://www.semanticscholar.org/paper/The-Stixel-World-N-Im/5307f5e2ff2f0403a92b63418ca5812965dcfb90)]
+* **[2009]** _Autonomous Information Fusion for Robust Obstacle Localization on a Humanoid Robot_. [[ref](https://www.semanticscholar.org/paper/Autonomous-Information-Fusion-for-Robust-Obstacle-Sridharan-Li/2365b361fb0e5cb801b22900a4c4a421c35ea639)]
+* **[2008]** _Vehicle detection and tracking for the Urban Challenge_. [[ref](https://www.semanticscholar.org/paper/Vehicle-detection-and-tracking-for-the-Urban-Darms-Baker/757fbaa9881b9075409a9962819fda64d51307e1)]
+* **[2000]** _Real-time multiple vehicle detection and tracking from a moving vehicle_. [[ref](https://www.semanticscholar.org/paper/Real-time-multiple-vehicle-detection-and-tracking-Betke-Haritaoglu/864a7068c346ecbc4ef6c4da66e4c8bcc83fe560)]
 
 
+#### Navigation & Planning
+1. **[2016]** _A Self-Driving Robot Using Deep Convolutional Neural Networks on Neuromorphic Hardware_. [[ref](https://arxiv.org/abs/1611.01235)]
+* **[2016]** _End to End Learning for Self-Driving Cars_. [[ref](https://arxiv.org/abs/1604.07316)]
+* **[2016]** _A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles_. [[ref](https://arxiv.org/abs/1604.07446)]
+* **[2016]** _A Convex Optimization Approach to Smooth Trajectories for Motion Planning with Car-Like Robots_. [[ref](https://www.semanticscholar.org/paper/A-Convex-Optimization-Approach-to-Smooth-Zhu-Schmerling/785b22bbdb04f2ddd4233a4c40d798ed3194374f)]
+* **[2016]** _Routing Autonomous Vehicles in Congested Transportation Networks: Structural Properties and Coordination Algorithms_. [[ref](https://arxiv.org/abs/1603.00939)]
+* **[2016]** _Machine Learning for Visual Navigation of Unmanned Ground Vehicles_. [[ref](https://www.semanticscholar.org/paper/Machine-Learning-for-Visual-Navigation-of-Unmanned-Lenskiy-Lee/9b21934ec4f08ed3cd54a7e3a3c7c25b311e1ced)]
+* **[2016]** _Real-time self-driving car navigation and obstacle avoidance using mobile 3D laser scanner and GNSS_. [[ref](https://www.semanticscholar.org/paper/Real-time-self-driving-car-navigation-and-obstacle-Li-Bao/4e8b5a99ae628eea43d7e7410cdfa7f8a2e847d5)]
+* **[2016]** _Watch this: Scalable cost-function learning for path planning in urban environments_. [[ref](https://www.semanticscholar.org/paper/Watch-this-Scalable-cost-function-learning-for-Wulfmeier-Wang/d1e51c7e374dca4465a91300e98bfb27335be463)]
+* **[2015]** _DeepDriving: Learning Affordance for Direct Perception in Autonomous Driving_. [[ref](https://www.semanticscholar.org/paper/DeepDriving-Learning-Affordance-for-Direct-Chen-Seff/3ba79761192aa4bddd3342db03aa8187516c0fab?citingPapersSort=is-influential&citingPapersLimit=10&citingPapersOffset=0&citedPapersSort=is-influential&citedPapersLimit=10&citedPapersOffset=0), [data](http://deepdriving.cs.princeton.edu/), [code](http://deepdriving.cs.princeton.edu/)]
+* **[2015]** _Automatic Driving on Ill-defined Roads: An Adaptive, Shape-constrained, Color-based Method_. [[ref](https://www.semanticscholar.org/paper/Automatic-Driving-on-Ill-defined-Roads-An-Adaptive-Ososinski-Labrosse/36cfe2e94b7b99653e6565642236e0127d43ef5a), [data](http://www.aber.ac.uk/en/cs/research/ir/dss/#road-driving)]
+* **[2015]** _A Framework for Applying Point Clouds Grabbed by Multi-Beam LIDAR in Perceiving the Driving Environment_. [[ref](https://www.semanticscholar.org/paper/A-Framework-for-Applying-Point-Clouds-Grabbed-by-Liu-Liang/907189aacae7bff389d6c6592d6e2586dab5168d)]
+* **[2015]** _How Much of Driving Is Preattentive?_. [[ref](https://www.semanticscholar.org/paper/How-Much-of-Driving-Is-Preattentive--Pugeault-Bowden/bb9686ea6f154a64fbdc3551fe223da42663baa9)]
+* **[2015]** _Map-building and Planning for Autonomous Navigation of a Mobile Robot_. [[ref](https://www.semanticscholar.org/paper/Map-building-and-Planning-for-Autonomous-G%C3%B3mez-Yu/fc5b5b96334d2a0d12ac2d69fa6d46640897f33e)]
+* **[2014]** _A Multiple Attribute-based Decision Making model for autonomous vehicle in urban environment_. [[ref](https://www.semanticscholar.org/paper/A-Multiple-Attribute-based-Decision-Making-model-Chen-Zhao/a045d7008e47d4264e06b5d9f509ed505e100084)]
+* **[2014]** _A prediction-based reactive driving strategy for highly automated driving function on freeways_. [[ref](https://www.semanticscholar.org/paper/A-prediction-based-reactive-driving-strategy-for-Bahram-Wolf/77d24bd1e83c23bb7cdf59ab06d575a66c03449a)]
+* **[2014]** _An RRT-based navigation approach for mobile robots and automated vehicles_. [[ref](https://www.semanticscholar.org/paper/An-RRT-based-navigation-approach-for-mobile-robots-Garrote-Premebida/56cfb13218175d67bf6dc281686c797b8641a3d0)]
+* **[2014]** _Image Feature-based Traversability Analysis for Mobile Robot Navigation in Outdoor Environment_. [[ref](https://www.semanticscholar.org/paper/Image-Feature-based-Traversability-Analysis-for-BEKHTI-KOBAYASHI/9fdf6ba484ee59cfac03a6c73e5177a9a70986c5)]
+* **[2014]** _Speed Daemon: Experience-Based Mobile Robot Speed Scheduling_. [[ref](https://www.semanticscholar.org/paper/Speed-Daemon-Experience-Based-Mobile-Robot-Speed-Ostafew-Schoellig/9d3c816fb21bfa00d5a86cbb972a4ab7af59dbfb)]
+* **[2014]** _Toward human-like motion planning in urban environments_. [[ref](https://www.semanticscholar.org/paper/Toward-human-like-motion-planning-in-urban-Gu-Dolan/30005949ebde80ebe3cd0b96b84a8dcb8b7f919a)]
+* **[2013]** _Motion Estimation for Self-Driving Cars with a Generalized Camera_. [[ref](https://www.semanticscholar.org/paper/Motion-Estimation-for-Self-Driving-Cars-with-a-Lee-Fraundorfer/f7f775a4f484706ffbc524accb351cb564469f6a)]
+* **[2013]** _Development of a Navigation Control System for an Autonomous Formula Sae-electric Race Car_. [[ref](https://www.semanticscholar.org/paper/Development-of-a-Navigation-Control-System-for-an-Drage/f55796a5f33836017de2cd8023b57efda9882c26)]
+* **[2013]** _Low speed automation: Technical feasibility of the driving sharing in urban areas_. [[ref](https://www.semanticscholar.org/paper/Low-speed-automation-Technical-feasibility-of-the-Resende-Pollard/a34161c17343e8f41e200fe5288e2a4aaeafa25a)]
+* **[2013]** _Path selection based on local terrain feature for unmanned ground vehicle in unknown rough terrain environment_. [[ref](https://www.semanticscholar.org/paper/Path-selection-based-on-local-terrain-feature-for-Kondo-Sunaga/e58506ef0f6721729d2f72c61e6bb46565b887de)]
+* **[2013]** _Stereo-based Autonomous Navigation and Obstacle Avoidance_. [[ref](https://www.semanticscholar.org/paper/Stereo-based-Autonomous-Navigation-and-Obstacle-C%C3%A9sar-Mendes/be6789bd46d16afa45c8962560a56a89a9089355)]
+* **[2012]** _Development of an Autonomous Vehicle for High-Speed Navigation and Obstacle Avoidance._ [[ref](https://www.semanticscholar.org/paper/Development-of-an-Autonomous-Vehicle-for-High-Ryu-Ogay/0941bcd18fdf52d9e25984ff067eebe6834ad7c6)]
+* **[2012]** _Fast Vanishing-Point Detection in Unstructured Environments_. [[ref](https://www.semanticscholar.org/paper/Fast-Vanishing-Point-Detection-in-Unstructured-Moghadam-Starzyk/c02f52b8b80db037f92facbb605c5715513935fb)]
+* **[2012]** _Navigation of an Autonomous Car Using Vector Fields and the Dynamic Window Approach_. [[ref](https://www.semanticscholar.org/paper/Navigation-of-an-Autonomous-Car-Using-Vector-Lima-Augusto/92411ee829021f09cb30186435d888547e00dd0f)]
+* **[2012]** _Road direction detection based on vanishing-point tracking_. [[ref](https://www.semanticscholar.org/paper/Road-direction-detection-based-on-vanishing-point-Moghadam-Feng/d2691eb5a030a1b017a944c7fce319ccd4477730)]
+* **[2012]** _Self-supervised learning to visually detect terrain surfaces for autonomous robots operating in forested terrain_. [[ref](https://www.semanticscholar.org/paper/Self-supervised-learning-to-visually-detect-Zhou-Xi/617740b12065ee88049ca9086695ba78ccd3f110)]
+* **[2012]** _Visual Navigation for Mobile Robots_. [[ref](https://www.semanticscholar.org/paper/X-Visual-Navigation-for-Mobile-Robots-Andersen-Andersen/7ac3b3fb12f6b071bdc0d8627225efe415c03104)]
+* **[2011]** _A new Approach for Robot Motion Planning using Rapidly-exploring Randomized Trees_. [[ref](https://www.semanticscholar.org/paper/A-new-Approach-for-Robot-Motion-Planning-using-Krammer-Granzer/7e084820c195b65e45e9138415f6cac7762f18dc)]
+* **[2011]** _Driving me around the bend: Learning to drive from visual gist_. [[ref](https://www.semanticscholar.org/paper/Driving-me-around-the-bend-Learning-to-drive-from-Pugeault-Bowden/2cf7bddfe52d6ca8f5309c3b42d620065126b445)]
+* **[2010]** _Vision-Based Autonomous Navigation System Using ANN and FSM Control_ [[ref](https://www.semanticscholar.org/paper/Vision-Based-Autonomous-Navigation-System-Using-Sales-Shinzato/e1fcccdbc373c9bbd5bd970c34368e7e1aa56424)]
+* **[2008]** _Motion Planning in Urban Environments_. [[ref](https://www.semanticscholar.org/paper/Motion-Planning-in-Urban-Environments-Ferguson-Howard/8fa74131756a50c1562ebf1f03552779803aed67)]
+* **[2007]** _Online Speed Adaptation Using Supervised Learning for High-Speed, Off-Road Autonomous Driving_.[[ref](https://www.semanticscholar.org/paper/Online-Speed-Adaptation-Using-Supervised-Learning-Stavens-Hoffmann/9db82954df3f4ae829459dcb8719b8a8ed9f4bee)]
+* **[2006]** _Probabilistic Terrain Analysis For High-Speed Desert Driving_.[[ref](https://www.semanticscholar.org/paper/Probabilistic-Terrain-Analysis-For-High-Speed-Thrun-Montemerlo/b23a7882b35d0252e5f3011bff15c6dca46ef84e)]
+
+#### Control
+1. **[2016]** _Predictive Control for Autonomous Driving with Experimental Evaluation on a Heavy-duty Construction Truck_. [[ref](https://www.semanticscholar.org/paper/Predictive-Control-for-Autonomous-Driving-with-Lima-Se/de87a5d5fbae0733806ba965b2d70fd04596f6e9)]
+* **[2015]** _Model Predictive Control of Autonomous Mobility-on-Demand Systems_. [[ref](https://arxiv.org/abs/1509.03985)]
+* **[2015]** _Toward integrated motion planning and control using potential fields and torque-based steering actuation for autonomous driving_. [[ref](https://www.semanticscholar.org/paper/Toward-integrated-motion-planning-and-control-Galceran-Eustice/7b2f163eac946fac7351b0861c2b37fb19ffbaa5)]
+* **[2013]** _Strategic decision making for automated driving on two-lane, one way roads using model predictive control_. [[ref](https://www.semanticscholar.org/paper/Strategic-decision-making-for-automated-driving-on-Nilsson-Sj%C3%B6berg/0055ca2e60a2ab5cb66c4191d09563dd7f3edd00)]
+* **[2012]** _Autonomous vehicles control in the VisLab Intercontinental Autonomous Challenge_. [[ref](https://www.semanticscholar.org/paper/Autonomous-vehicles-control-in-the-VisLab-Broggi-Medici/708fdf9bfd3f7d671ced85221012ef27209b92bb)]
+* **[2012]** _Optimal Planning and Control for Hazard Avoidance of Front-wheel Steered Ground Vehicles_. [[ref](https://www.semanticscholar.org/paper/Optimal-Planning-and-Control-for-Hazard-Avoidance-Peters/5d5a066547d60a673328cf6db34325910787ba48)]
+
+#### Simulation
+1. **[2016]** _Learning a Driving Simulator_. [[ref](https://arxiv.org/abs/1608.01230)]
+* **[2014]** _From a Competition for Self-Driving Miniature Cars to a Standardized Experimental Platform: Concept, Models, Architecture, and Evaluation_. [[ref](https://arxiv.org/abs/1406.7768)]
+* **[2014]** _Technical evaluation of the Carolo-Cup 2014 - A competition for self-driving miniature cars_. [[ref](https://www.semanticscholar.org/paper/Technical-evaluation-of-the-Carolo-Cup-2014-A-Zug-Steup/4f57643b95e854bb05fa0c037cbf8898accdbdef)]
+* **[2014]** _Crowdsourcing as a methodology to obtain large and varied robotic data sets_. [[ref](https://www.semanticscholar.org/paper/Crowdsourcing-as-a-methodology-to-obtain-large-and-Croon-Gerke/8bdcb90d72eb0494f8f2635dad8ef05a66b8e445)]
+* **[2014]** _Efficient Learning of Pre-attentive Steering in a Driving School Framework_. [[ref](https://www.semanticscholar.org/paper/Efficient-Learning-of-Pre-attentive-Steering-in-a-Rudzits-Pugeault/6a65272403a8bb999bc4e86eee3f919e3fbe813d)]
+* **[2006]** _Robot Competitions Ideal Benchmarks for Robotics Research_. [[ref](https://www.semanticscholar.org/paper/Robot-Competitions-Ideal-Benchmarks-for-Robotics-Behnke/71e5e9e8be8c870b22cadf58338f634ddd856050)]
+
+#### Software Engineering
+1. **[2016]** _Evaluation of Sandboxed Software Deployment for Real-time Software on the Example of a Self-Driving Heavy Vehicle_. [[ref](https://arxiv.org/abs/1608.06759)]
+* **[2014]** _Engineering the Hardware/Software Interface for Robotic Platforms - A Comparison of Applied Model Checking with Prolog and Alloy_. [[ref](https://arxiv.org/abs/1401.3985)]
+* **[2014]** _Comparison of Architectural Design Decisions for Resource-Constrained Self-Driving Cars - A Multiple Case-Study_. [[ref](https://www.semanticscholar.org/paper/Comparison-of-Architectural-Design-Decisions-for-Berger-Dukaczewski/c89f47c93c62c107e6bd75acde89ee7417ebf244)]
+* **[2014]** _(Re)liability of Self-driving Cars. An Interesting Challenge!_. [[ref](http://onlinelibrary.wiley.com/doi/10.1002/qre.1707/full)]
+* **[2014]** _Explicating, Understanding, and Managing Technical Debt from Self-Driving Miniature Car Projects_. [[ref](http://ieeexplore.ieee.org/document/6974884/)]
+* **[2014]** _Towards Continuous Integration for Cyber-Physical Systems on the Example of Self-Driving Miniature Cars_. [[ref](https://www.semanticscholar.org/paper/Towards-Continuous-Integration-for-Cyber-Physical-Berger/2ac2aa0285984f2ce57efa77aab4e372bbc3ee6c)]
+* **[2014]** _Saving virtual testing time for CPS by analyzing code coverage on the example of a lane-following algorithm_. [[ref](http://dl.acm.org/citation.cfm?id=2593466)]
+* **[2013]** _Parallel scheduling for cyber-physical systems: analysis and case study on a self-driving car_[[ref](http://dl.acm.org/citation.cfm?id=2502530)]
+* **[2012]** _SAFER: System-level Architecture for Failure Evasion in Real-time Applications_. [[ref](https://www.semanticscholar.org/paper/SAFER-System-level-Architecture-for-Failure-Kim-Bhatia/ff05797dcc041d04f9ed277269916ad6ff92f1f0)]
+* **[2010]** _Automating acceptance tests for sensor- and actuator-based systems on the example of autonomous vehicles_. [[ref](https://www.semanticscholar.org/paper/Automating-acceptance-tests-for-sensor-and-Berger/3bc567143118f8fb34e0460cc3424701683c2511)]
+* **[2007]** _Software & Systems Engineering Process and Tools for the Development of Autonomous Driving Intelligence_ [[ref](https://www.semanticscholar.org/paper/Software-Systems-Engineering-Process-and-Tools-for-Basarke-Berger/c564b62cd7df2ed47bb9a6266cc19c83024bc390)]
+
+#### Human-Machine Interaction
+1. **[2015]** _User interface considerations to prevent self-driving carsickness_. [[ref](http://dl.acm.org/citation.cfm?id=2809754)]
+* **[2014]** _Public Opinion about Self-driving Vehicles_. [[ref](https://www.semanticscholar.org/paper/Public-Opinion-about-Self-driving-Vehicles-Schoettle-Sivak/4984ed8ae3355d58cfad2bd27cb2bc2488cb0e6a)]
+* **[2014]** _Setting the Stage for Self-driving Cars: Exploration of Future Autonomous Driving Experiences_. [[ref](https://www.semanticscholar.org/paper/Setting-the-Stage-for-Self-driving-Cars-Pettersson/df428d8015b92902416d07379fb3415a12d64e3f)]
+* **[2014]** _Three Decades of Driver Assistance Systems: Review and Future Perspectives_. [[ref](https://www.semanticscholar.org/paper/Three-Decades-of-Driver-Assistance-Systems-Review-Bengler-Dietmayer/2c6d7bcf2ae79b73ad5888f591e159a3d994322b)]
+* **[2013]** _Review Article Automotive Technology and Human Factors Research: Past, Present, and Future_. [[ref](https://www.semanticscholar.org/paper/Review-Article-Automotive-Technology-and-Human-Akamatsu-Green/dfe6df56cd5418ce9d6df938858542097157d3e8)]
+* **[2012]** _Safe semi-autonomous control with enhanced driver modeling_. [[ref](https://www.semanticscholar.org/paper/Safe-semi-autonomous-control-with-enhanced-driver-Vasudevan-Shia/8e36ebbb6e5409aa911e4121ca37c455ff157218)]
+* **[2012]** _Semi-autonomous Car Control Using Brain Computer Interfaces_. [[ref](https://www.semanticscholar.org/paper/Semi-autonomous-Car-Control-Using-Brain-Computer-G%C3%B6hring-Latotzky/e35864047f5b4ac3398ad6f242d2f1407c965f37)]
+
+#### Infrastructure
+1. **[2014]** _Control of Robotic Mobility-On-Demand Systems: a Queueing-Theoretical Perspective_. [[ref](https://arxiv.org/abs/1404.4391)]
+* **[2014]** _Priority-based Intersection Control Framework for Self-Driving Vehicles: Agent-based Model Development and Evaluation_. [[ref](https://www.researchgate.net/publication/271738793_Priority-based_Intersection_Control_Framework_for_Self-Driving_Vehicles_Agent-based_Model_Development_and_Evaluation)]
+* **[2014]** _A lattice-based approach to multi-robot motion planning for non-holonomic vehicles_. [[ref](https://www.semanticscholar.org/paper/A-lattice-based-approach-to-multi-robot-motion-Cirillo-Uras/74ec451f463c4931c73f35cf327893ac2595e876)]
+* **[2005]** _Cooperative autonomous driving: intelligent vehicles sharing city roads_. [[ref](https://www.semanticscholar.org/paper/Cooperative-autonomous-driving-intelligent-Baber-Kolodko/a42f42fa95d8ee6498dff905ed4848437a8f0084)]
+* **[2014]** _Achieving Integrated Convoys: Cargo Unmanned Ground Vehicle Development and Experimentation_. [[ref](https://www.semanticscholar.org/paper/Achieving-Integrated-Convoys-Cargo-Unmanned-Ground-Zych-Silver/364ecf6f5af89c7b3e3d11d2269581b420edb003)]
+* **[2014]** _Priority-based coordination of mobile robots_. [[ref](https://www.semanticscholar.org/paper/Priority-based-coordination-of-mobile-robots-Gregoire/5fdd722822fe2722d8c90e35461538dbfca10a5e)]
+* **[2012]** _Exploration and Mapping with Autonomous Robot Teams Results from the Magic 2010 Competition_. [[ref](https://www.semanticscholar.org/paper/Exploration-and-Mapping-with-Autonomous-Robot-Olson-Strom/9bf0e62b5b2343a0b509a1ac7a658be587a5c37d)]
+* **[2012]** _Progress toward multi-robot reconnaissance and the MAGIC 2010 competition_. [[ref](https://www.semanticscholar.org/paper/Progress-toward-multi-robot-reconnaissance-and-the-Olson-Strom/617943baefd909bbf06787fcb8b18b943820c87e)]
+
+#### Law & Society
+1. **[2016]** _Autonomous Vehicle Technology: A Guide for Policymakers_. [[ref](https://www.semanticscholar.org/paper/Autonomous-Vehicle-Technology-A-Guide-for-Anderson-Kalra/a0231f6ab2a9feaef92d5481149cdb2142aaeb02)]
+* **[2014]** _**WHITE PAPER** Self-driving Vehicles: Current Status of Autonomous Vehicle Development and Minnesota Policy Implications Preliminary White Paper_. [[ref](https://www.semanticscholar.org/paper/Self-driving-Vehicles-Current-Status-of-Autonomous-Lari-Douma/581075c89f6a3945fa43d61aac1329d1e43f9fa3)]
+* **[2014]** _Are We Ready for Driver-less Vehicles? Security vs. Privacy- A Social Perspective_. [[ref](https://www.semanticscholar.org/paper/Are-We-Ready-for-Driver-less-Vehicles-Security-vs-Acharya/ec5b5c434f9d0bfc3954c212226d436e32bcf7d5)]
+* **[2014]** _A Survey of Public Opinion about Autonomous and Self-driving_.[[ref](https://www.semanticscholar.org/paper/A-Survey-of-Public-Opinion-about-Autonomous-and-Schoettle-Sivak/5d983c2d2160b9c159b2cdcfcfaded01a4ce2ad6)]
+* **[2013]** _Autonomous vehicle social behavior for highway entrance ramp management_. [[ref](https://www.semanticscholar.org/paper/Autonomous-vehicle-social-behavior-for-highway-Wei-Dolan/86482726040d4a924ee339043e4606625a8f64fd)]
+
+## Research Labs
+1. 	[Center for Automotive Research at Stanford](https://cars.stanford.edu/) - Current areas of research focuses on human-centered mobility themes like
+understanding how people will interact with increasingly automated vehicles, societal impacts of vehicle automation from policy to ethics to law, technology advances in sensing, decision-making and control.
+* [SAIL-TOYOTA Center for AI Research at Stanford](http://aicenter.stanford.edu/research/) - The theme of the center is **Human-Centered Artificial Intelligence for Future Intelligent Vehicles and Beyond.**
+* [Berkeley DeepDrive](http://www.path.berkeley.edu/berkeley-deepdrive) - Investigates state-of-the-art technologies in computer vision and machine learning for automotive application.
+* [Princeton Autonomous Vehicle Engineering](http://pave.princeton.edu/) - undergraduate student-led research group at Princeton University dedicated to advancing and promoting the field of robotics through competitive challenges, self-guided research and community outreach.
+* [University of Maryland Autonomous Vehicle Laboratory](http://www.avl.umd.edu/) - conducts research and development in the area of biologically inspired design and robotics.
+* [University of Waterloo WAVE Laboratory](http://wavelab.uwaterloo.ca/) - Research areas includes Multirotor UAV, Autonomous driving and Multi-Camera Parallel Tracking and Mapping.
+* [Oxford Robotics Institute – Autonomous Systems](http://mrg.robots.ox.ac.uk/) - Researches all aspects of land based mobile autonomy.
+* [Autonomous Lab - Freie Universität Berlin](http://autonomos-labs.com/) - Computer Vision, Cognitive Navigation, Spatial Car Environment Capture.
+* [Honda Research Institute - USA](http://usa.honda-ri.com/Pages/Research%20Area/Detail.aspx?listId=2) - engaged in development and integration of multiple sensory modules and the coordination of these components while fulfilling tasks such as stable motion planning,  decision making, obstacle avoidance, and control (test).​
+* [Toyota-CSAIL Research Center at MIT](http://toyota.csail.mit.edu/) - Aimed at furthering the development of autonomous vehicle technologies, with the goal of reducing traffic casualties and potentially even developing a vehicle incapable of getting into an accident.
+* [Princeton Vision & Robotics](http://vision.princeton.edu/research.html) - Autonomous Driving and StreetView.
 
 ## Datasets
-
 1. [Udacity](https://github.com/udacity/self-driving-car/tree/master/datasets) - Udacity driving datasets released for [Udacity Challenges](https://www.udacity.com/self-driving-car). Contains ROSBAG training data. (~80 GB).
 * [Comma.ai](https://archive.org/details/comma-dataset) - 7 and a quarter hours of largely highway driving. Consists of 10 videos clips of variable size recorded at 20 Hz with a camera mounted on the windshield of an Acura ILX 2016. In parallel to the videos, also recorded some measurements such as car's speed, acceleration, steering angle, GPS coordinates, gyroscope angles. These measurements are transformed into a uniform 100 Hz time base.
 * [Oxford's Robotic Car](http://robotcar-dataset.robots.ox.ac.uk/) - over 100 repetitions of a consistent route through Oxford, UK, captured over a period of over a year. The dataset captures many different combinations of weather, traffic and pedestrians, along with longer term changes such as construction and roadworks.
@@ -77,29 +247,44 @@ sensors for odometry collected using a Segway robot.
 * [Daimler Urban Segmetation Dataset](http://www.6d-vision.com/scene-labeling) - consists of video sequences recorded in urban traffic. The dataset consists of 5000 rectified stereo image pairs with a resolution of 1024x440. 500 frames (every 10th frame of the sequence) come with pixel-level semantic class annotations into 5 classes: ground, building, vehicle, pedestrian, sky. Dense disparity maps are provided as a reference, however these are not manually annotated but computed using semi-global matching (sgm).
 * [Self Racing Cars - XSens/Fairchild Dataset](http://data.selfracingcars.com/) - The files include measurements from the Fairchild FIS1100 6 Degree of Freedom (DoF) IMU, the Fairchild FMT-1030 AHRS, the Xsens MTi-3 AHRS, and the Xsens MTi-G-710 GNSS/INS. The files from the event can all be read in the MT Manager software, available as part of the MT Software Suite, available here.
 
-
-### Blogs
----
-[Deep Learning and Autonomous Driving](https://handong1587.github.io/deep_learning/2015/10/09/dl-and-autonomous-driving.html)
+## Open Source Software
+1. [Autoware](https://github.com/CPFL/Autoware) - Integrated open-source software for urban autonomous driving.
+* [Comma.ai Openpilot](https://github.com/commaai/openpilot) - an open source driving agent.
+* [Stanford Driving Software](https://sourceforge.net/projects/stanforddriving/) - Software Infrastructure for Stanford's Autonomous Vehicles.
+* [GTA Robotics SDC Environment](https://github.com/OSSDC/self-driving-car-1) - development environment ready for Udacity Self Driving Car (SDC) Challenges.
+* [The OSCC Project](http://oscc.io/) - A by-wire control kit for autonomous vehicle development.
 
 ## Hardware
 
-## OSS
-
-[Autoware](https://github.com/CPFL/Autoware)
-
-[GTA Robotics SDC Environment](https://github.com/OSSDC/self-driving-car-1)
-
-[The OSCC Project](http://oscc.io/)
 
 ## Companies
 
-* [33 Corporations Working On Autonomous Vehicles](https://www.cbinsights.com/blog/autonomous-driverless-vehicles-corporations-list/)
+1. [33 Corporations Working On Autonomous Vehicles](https://www.cbinsights.com/blog/autonomous-driverless-vehicles-corporations-list/)
 
-## Laws and Legislation
+## Media
+Different media sources where we can find self-driving car related topics, ideas, and much more.
+
+#### Blogs
+1. [Deep Learning and Autonomous Driving](https://handong1587.github.io/deep_learning/2015/10/09/dl-and-autonomous-driving.html)
+* [[Medium] Self-Driving Cars](https://medium.com/self-driving-cars)
+
+#### Twitter
+
+1. [comma.ai](https://twitter.com/comma_ai)
+* [[Udacity] David Silver](https://twitter.com/dsilver829)
+* [[Udacity] Dhruv Parthasarathy](https://twitter.com/dhruvp)
+* [[Udacity] Eric Gonzalez](https://twitter.com/ericrgon)
+* [[Udacity] Oliver Cameron](https://twitter.com/olivercameron)
+* [[Udacity] MacCallister Higgins](https://twitter.com/macjshiggins)
+* [[Udacity] Sebastian Thrun](https://twitter.com/SebastianThrun)
+* [[Google] Chris Urmson](https://twitter.com/chris_urmson)
+
+
+## Laws
 
 United States
 
 1. [California Regulatory Notice](https://www.dmv.ca.gov/portal/dmv/detail/vr/autonomous/testing)
 * [Michigan Just Passed the Most Permissive Self-Driving Car Laws in the Country](http://fortune.com/2016/12/09/michigan-self-driving-cars/)
 * [Car accidents involving a SDC in California](https://www.dmv.ca.gov/portal/dmv/detail/vr/autonomous/autonomousveh_ol316)
+* [Nvidia starts testing its self-driving cars on public roads](http://www.theinquirer.net/inquirer/news/2479432/nvidia-starts-testing-its-self-driving-cars-on-public-roads)
